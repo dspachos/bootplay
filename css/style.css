@@ -1,0 +1,38 @@
+
+/**
+ * This file should get overwritten if Method 1 is used. If Method 2 is chosen,
+ * remove this comment and start adding your styles to this file.
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css");
+ */
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:700,300,400&subset=latin,greek);
+
+* {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.99em;
+}
+
+.node-course div.field {
+	margin-top: 24px;
+}
+
+
+div.entity-field-collection-item.field-collection-item-field-orientation-info div.field {
+	float: left;
+	margin-right: 14px;
+	display: inline;
+	width:17%;
+}
+
+div.entity-field-collection-item.field-collection-item-field-orientation-info div.field-name-field-course-orientation {
+	width: 10% !important;
+}
+
+div.entity-field-collection-item.field-collection-item-field-orientation-info div.field-name-field-course-sem {
+	width: 6% !important;
+}
+
+div.entity-field-collection-item.field-collection-item-field-orientation-info div.field div.field-label {
+	white-space: nowrap;
+}
+
